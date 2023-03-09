@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #333;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-block {
+  width: 450px;
+  padding: 40px 50px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+#text {
+  font-size: 30px;
+}
+#author {
+  text-align: right;
+  margin: 30px 0;
+}
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.tweet-button {
+  background-image: url(/src/Twitter-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 25px;
+}
+#tweet-quote {
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+#new-quote {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
